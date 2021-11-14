@@ -27,7 +27,6 @@ const Container = styled.div`
     justify-content:center;
     background-color: #f5fbfd;
     position:relative;
-
     &:hover ${Info}{
         opacity: 1;
         cursor:pointer;
@@ -40,9 +39,7 @@ const Circle = styled.div`
     border-radius:50%;
     background-color:white;
     position:absolute;
-
     
-
 `
 const Image = styled.img`
     height:75%;
